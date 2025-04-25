@@ -1,0 +1,11 @@
+body {
+    background: linear-gradient(135deg, #1f1c2c, #928dab);
+    animation: backgroundShift 20s infinite alternate ease-in-out;
+    color: white;
+  }
+  
+  @keyframes backgroundShift {
+    0% { background-position: 0% 50%; }
+    100% { background-position: 100% 50%; }
+  }
+      
